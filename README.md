@@ -32,7 +32,7 @@ Utilizado Java 12, Gradle e Spring Boot.
 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
 ```
 
-### ARQUIVO DE EXEMPLO :
+### EXEMPLO DE ARQUIVO DE ENTRADA :
 ```
 001ç1234567891234çPedroç50000
 001ç3245678865434çPauloç40000.99
@@ -40,4 +40,12 @@ Utilizado Java 12, Gradle e Spring Boot.
 002ç2345675433444345çEduardo PereiraçRural
 003ç10ç[1-10-100,2-30-2.50,3-40-3.10]çPedro
 003ç08ç[1-34-10,2-33-1.50,3-40-0.10]çPaulo
+```
+
+### EXEMPLO DE ARQUIVO DE SAÍDA :
+```
+Quantidade de clientes no arquivo de entrada = 2
+Quantidade de vendedores no arquivo de entrada = 2
+ID da venda mais cara = 10
+Nome do pior vendedor = Paulo
 ```
